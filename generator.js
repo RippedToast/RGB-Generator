@@ -1,12 +1,12 @@
-let x;
-let y;
-let z;
+let r;
+let g;
+let b;
 
 document.getElementById("generatorButton").onclick = function(){
 
-    x = Math.floor(Math.random() * 255) + 1;
-    y = Math.floor(Math.random() * 255) + 1;
-    z = Math.floor(Math.random() * 255) + 1;
+    r = Math.floor(Math.random() * 255) + 1;
+    g = Math.floor(Math.random() * 255) + 1;
+    b = Math.floor(Math.random() * 255) + 1;
 
     document.getElementById("xlabel").innerHTML = x;
     document.getElementById("ylabel").innerHTML = y;
